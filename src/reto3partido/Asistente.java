@@ -19,6 +19,7 @@ public class Asistente {
         this.nombreCompleto = nombreCompleto;
         this.direccionResidencia = direccionResidencia; 
         this.credenciales = "";
+
     }
 
     public String getIdTiquete() {
