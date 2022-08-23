@@ -14,6 +14,7 @@ public class Asistente {
     private String direccionResidencia; 
     private String credenciales;
     private int precio; //se agrego otro atributo
+    private  int cantidad;
     
     public Asistente(String idTiquete, String nombreCompleto, String direccionResidencia, int precio){
         this.idTiquete = idTiquete;
