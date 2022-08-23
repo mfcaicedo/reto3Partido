@@ -13,12 +13,14 @@ public class Asistente {
     private String nombreCompleto; 
     private String direccionResidencia; 
     private String credenciales;
+    private  int development;
     
     public Asistente(String idTiquete, String nombreCompleto, String direccionResidencia){
         this.idTiquete = idTiquete;
         this.nombreCompleto = nombreCompleto;
         this.direccionResidencia = direccionResidencia; 
         this.credenciales = "";
+
 
     }
 
