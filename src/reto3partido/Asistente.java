@@ -13,12 +13,14 @@ public class Asistente {
     private String nombreCompleto; 
     private String direccionResidencia; 
     private String credenciales;
+    private int precio; //se agrego otro atributo
     
-    public Asistente(String idTiquete, String nombreCompleto, String direccionResidencia){
+    public Asistente(String idTiquete, String nombreCompleto, String direccionResidencia, int precio){
         this.idTiquete = idTiquete;
         this.nombreCompleto = nombreCompleto;
         this.direccionResidencia = direccionResidencia; 
         this.credenciales = "";
+        this.precio = precio;
 
     }
 
